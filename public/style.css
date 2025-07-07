@@ -1,0 +1,43 @@
+body{
+    margin-left: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.btn{
+background-color: aliceblue;
+color:black;
+display: inline-block;
+}
+
+.chat{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius:16px;
+    border: 1px rgb(10, 90, 143) solid;
+    margin:5px;
+}
+
+.msg{
+    background-color: dodgerblue;
+    color:white;
+    padding: 2px 2px;
+    border-radius:26px;
+    animation-duration: 1s;
+    animation-name: slide-in;
+
+}
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
